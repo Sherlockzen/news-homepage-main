@@ -19,8 +19,8 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
+    font-size: 15px;
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     margin: 0 1rem;
+    font-family: 'Inter', sans-serif;
 }
 ol, ul {
     list-style: none;
@@ -53,11 +54,12 @@ img {
 }
 
 
+
 /*MY STYLE*/
 .nav_container {
     display: flex;
     justify-content: space-between;
-    margin: 2rem 1rem;
+    margin: 2rem 0;
 }
 
 .logo {
@@ -67,4 +69,107 @@ img {
 .menu {
     display: flex;
     align-items: center;
+}
+
+.future_web {
+    margin-top: 2rem;
+}
+
+.future_web article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.btn_read_more {
+    width: 179px;
+    height: 45px;
+    background-color: #F25C51;
+    border: none;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    color: white;
+
+}
+
+.future_web h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.new {
+    background-color: #00001A;
+    padding: 1rem;
+    margin-top: 4rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.new_new {
+    color: #E9AE68;
+    font-size: 2.7rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.cards_new h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.cards_new p {
+    color: hsl(233, 8%, 79%);
+}
+
+hr {
+    width: 100%;
+    border-width: 1px 0 0 0;
+    background-color: white;
+}
+
+.articles_imgs {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.articles_imgs_image {
+    /*height: 3rem;*/
+    width: 7rem;
+}
+
+.articles_imgs_cards {
+    display: flex;
+    gap: 1rem;
+    height: 9rem;
+}
+
+.articles_imgs_text {
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    line-height: 1.7rem;
+}
+
+.articles_imgs_text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #C5C4CA;
+}
+
+.articles_imgs_text h2 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #020016;
+}
+
+.articles_imgs_text p {
+    color: hsl(236, 13%, 42%);
 }
