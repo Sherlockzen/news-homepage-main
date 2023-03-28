@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     margin: 0 1rem;
+    margin-bottom: 6rem;
     font-family: 'Inter', sans-serif;
 }
 ol, ul {
@@ -86,7 +87,7 @@ img {
     height: 45px;
     background-color: #F25C51;
     border: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.3rem;
@@ -97,6 +98,10 @@ img {
 .future_web h1 {
     font-weight: bolder;
     font-size: 3rem;
+}
+
+.future_web p {
+    line-height: 2rem;
 }
 
 .new {
