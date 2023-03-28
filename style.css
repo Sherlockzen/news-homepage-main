@@ -178,3 +178,12 @@ hr {
 .articles_imgs_text p {
     color: hsl(236, 13%, 42%);
 }
+
+/*SANDWICH MENU*/
+.svg_hide {
+    display: none;
+}
+
+.svg_show {
+    display: block;
+}
