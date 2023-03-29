@@ -33,6 +33,7 @@ body {
     margin: 0 1rem;
     margin-bottom: 6rem;
     font-family: 'Inter', sans-serif;
+    overflow-y: auto;
 }
 ol, ul {
     list-style: none;
@@ -186,4 +187,34 @@ hr {
 
 .svg_show {
     display: block;
+}
+
+/* The side navigation menu */
+.sidenav {
+    background-color: white;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 5rem; /* Stay at the top */
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav li {
+    margin-top: 2rem;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #020016;
+    display: block;
+    transition: 0.3s;
+}
+
+#close_menu {
+    position: relative;
+    z-index: 2;
 }
